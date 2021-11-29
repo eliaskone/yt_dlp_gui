@@ -3,7 +3,7 @@
 DOWNDIR=$HOME/Videos/youtube/
 mkdir $DOWNDIR
 
-EINGABE=$(zenity --list --title "Youtube-DLH" --text "Format auswahl" \
+EINGABE=$(zenity --list --title "Youtube-Herunterlader" --text "Format auswahl" \
 --column "Auswahl" --column "Typ" --radiolist TRUE "Video herunterladen" \
 FALSE "Audio herunterladen" --width=600 --height=400)
 
